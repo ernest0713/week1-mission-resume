@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head{
+    margin-top: 30px;
+}
+
+.head-name{
+    font-size: 80px;
+    line-height: 94px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 48px;
+}
+.head-img{
+    width: 324px;
+    height: 324px;
+    border-radius: 324px;
+}
+
+.title{
+    font-size: 32px;
+    line-height: 43px;
+    border-bottom: 1px solid #000;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.title span{
+    font-size: 24px;
+    line-height: 28px;
+    color: #A00404;
+    margin-left: 16px;
+}
+.education, .workExperience{
+    margin-bottom: 72px;
+}
+.profile-intro, .education ul li{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+.skills, .contact{
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.skills-container{
+    width: 996px;
+    margin: 0 auto;
+}
+
+.skills-title, .contact-title{
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.skills-title span, .contact-title span{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.skills-list{
+    border-left: 1px solid #FFFFFF;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.skills-list li{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    padding-left: 24px;
+}
+
+.workExperience-list{
+    border-left: 1px solid #000000;
+    width: 666px;
+    margin-left: 24px;
+}
+.workExperience-list li{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
+.workExperience-list .logo{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.contact-list li{
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.contact-icon{
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+}
